@@ -1,0 +1,150 @@
+[
+  {
+    "description": "  As a logged in user\n  I want to access and view my dashboard\n  So that I can see my personalized information and overview",
+    "elements": [
+      {
+        "description": "",
+        "id": "dashboard-functionality;search-deepagent-prompt",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Search DeepAgent prompt",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 433223399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user enters username \"testuser1744775890841@internalreai.com\" and password \"Testuser@123\"",
+            "match": {
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1559538799,
+              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://apps.abacus.ai/chatllm/\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.navigate (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\pages\\login.page.js:13:21)\n    at BrowserType.<anonymous> (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\features\\step_definitions\\login.steps.js:37:19)\n    at Object.run (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:24:27)\n    at Object.run (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:51:59)\n    at async TestCaseRunner.invokeStep (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:95:16)\n    at async TestCaseRunner.runStep (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:244:26)\n    at async C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:175:44)\n    at async TestCaseRunner.aroundTestStep (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:120:32)\n    at async TestCaseRunner.runAttempt (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:158:13)\n    at async TestCaseRunner.run (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:136:35)\n    at async Worker.runTestCase (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\parallel\\worker.js:82:9)\n    at async Worker.receiveMessage (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\parallel\\worker.js:64:13)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click the deep Agent option",
+            "match": {
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I click the check out from the welcome window",
+            "match": {
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I search the prompt \"Who is the current PM and Governor General of Canada?\" with follow-up query \"No follow-up questions please\"",
+            "match": {
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see a prompt that tests factual recall and accuracy of the response",
+            "match": {
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I should see the status \"Completed\" for the task",
+            "match": {
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the compute points should not exceed 50k",
+            "match": {
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 141043499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeepAgent",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "dashboard-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Dashboard Functionality",
+    "tags": [],
+    "uri": "features\\deepAgent.feature"
+  }
+]
