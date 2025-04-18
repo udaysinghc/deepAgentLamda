@@ -35,6 +35,7 @@ jobs:
         shell: pwsh
         run: |
           New-Item -ItemType Directory -Force -Path .\test-results
+          $env:NODE_OPTIONS="--experimental-vm-modules"
           npm run test | Tee-Object -FilePath .\test-results\output.log
           $test_status = $LASTEXITCODE
           "test_status=$test_status" >> $env:GITHUB_OUTPUT
