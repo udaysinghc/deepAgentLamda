@@ -7,10 +7,8 @@ on:
 
 permissions:
   contents: read
-  metadata: read
   packages: read
-  actions: write # Required for uploading artifacts
-
+  actions: write
 jobs:
   test:
     runs-on: windows-latest
