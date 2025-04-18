@@ -9,10 +9,14 @@ permissions:
   contents: read
   packages: read
   actions: write
+
 jobs:
   test:
     runs-on: windows-latest
     
+    env:
+      NODE_OPTIONS: --experimental-vm-modules
+      
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -20,19 +24,22 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: 'lts/*'
+          cache: 'npm'
 
       - name: Install dependencies
         shell: pwsh
         run: |
           Write-Host "Installing dependencies..."
           npm install
-          npm ci
+          npx playwright install --with-deps
 
       - name: Run tests
         id: test
         continue-on-error: true
         shell: pwsh
+        env:
+          NODE_ENV: test
         run: |
           New-Item -ItemType Directory -Force -Path .\test-results
           npm run test | Tee-Object -FilePath .\test-results\output.log
@@ -50,10 +57,14 @@ jobs:
             Write-Host "Tests failed with exit code $test_exit_code"
             exit 1
           }
+
       - name: Upload test results
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: test-results
-          path: ./test-results/
+          path: |
+            ./test-results/
+            ./playwright-report/
+            ./test-results/output.log
           retention-days: 7
