@@ -8,7 +8,7 @@ module.exports = {
     ],
     paths: ['features/**/*.feature'],
     // require: ['features/step_definitions/*.js', 'features/support/*.js'],
-    import: ['features/step_definitions/*.js', 'features/support/*.js'],
+    require: ['features/step_definitions/*.js', 'features/support/*.js'],
     requireModule: ['@playwright/test'],
     publishQuiet: true
   }
