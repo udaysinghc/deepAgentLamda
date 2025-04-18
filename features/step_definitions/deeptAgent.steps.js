@@ -1,4 +1,5 @@
-const { Given, When, Then } = require("@cucumber/cucumber");
+
+const { Given, When, Then } = require('@cucumber/cucumber');
 const { DeepAgentPage } = require("../../pages/deepAgent.page");
 const { expect } = require("chai");
 let deepAgentPage;
