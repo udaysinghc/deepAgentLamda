@@ -42,10 +42,7 @@ jobs:
           NODE_ENV: test
           NODE_OPTIONS: --no-warnings --experimental-vm-modules
         run: |
-          New-Item -ItemType Directory -Force -Path .\test-results
-          npm run test | Tee-Object -FilePath .\test-results\output.log
-          $test_status = $LASTEXITCODE
-          "test_status=$test_status" >> $env:GITHUB_OUTPUT
+         npm run test
 
       - name: Display test results
         if: always()
