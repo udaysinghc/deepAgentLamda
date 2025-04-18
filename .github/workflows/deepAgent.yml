@@ -2,59 +2,39 @@ name: Deep Agent Automated Tests
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  packages: read
-  actions: write
+    - cron: '0 0 * * *'  # Runs at 00:00 UTC every day
+  workflow_dispatch:      # Allows manual trigger of the workflow
 
 jobs:
   test:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     
-    env:
-      NODE_OPTIONS: --no-warnings
-      
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
+          node-version: '18.x'
           cache: 'npm'
 
       - name: Install dependencies
-        shell: pwsh
         run: |
-          Write-Host "Installing dependencies..."
-          npm install
-          npx playwright install --with-deps
+          npm ci
 
-      - name: Run tests
-        id: test
-        continue-on-error: true
-        shell: pwsh
-        env:
-          NODE_ENV: test
-          NODE_OPTIONS: --no-warnings --experimental-vm-modules
+      - name: Run Cucumber tests
         run: |
-         npm run test
+          npm run test
 
-      - name: Display test results
+      - name: Run Chai tests
+        run: |
+          npm run test
+
+      - name: Generate test report
         if: always()
-        shell: pwsh
         run: |
-          Write-Host "Test Results:"
-          Get-Content .\test-results\output.log
-          $test_exit_code = ${{ steps.test.outputs.test_status }}
-          if ($test_exit_code -ne 0) {
-            Write-Host "Tests failed with exit code $test_exit_code"
-            exit 1
-          }
+          npm run generate-report
 
       - name: Upload test results
         if: always()
@@ -62,7 +42,6 @@ jobs:
         with:
           name: test-results
           path: |
-            ./test-results/
-            ./playwright-report/
-            ./test-results/output.log
-          retention-days: 7
+            reports/
+            cucumber-report/
+            test-results/

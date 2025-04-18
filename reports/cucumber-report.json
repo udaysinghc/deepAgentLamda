@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 423293100
+              "duration": 474045200
             }
           },
           {
@@ -26,8 +26,9 @@
               "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 2775767099
+              "status": "failed",
+              "duration": 1376448600,
+              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://apps.abacus.ai/chatllm/\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.navigate (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\pages\\login.page.js:13:21)\n    at BrowserType.<anonymous> (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\features\\step_definitions\\login.steps.js:37:19)\n    at Object.run (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:24:27)\n    at Object.run (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:51:59)\n    at async TestCaseRunner.invokeStep (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:95:16)\n    at async TestCaseRunner.runStep (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:244:26)\n    at async C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:175:44)\n    at async TestCaseRunner.aroundTestStep (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:120:32)\n    at async TestCaseRunner.runAttempt (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:158:13)\n    at async TestCaseRunner.run (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:136:35)\n    at async Worker.runTestCase (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\parallel\\worker.js:82:9)\n    at async Worker.receiveMessage (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\parallel\\worker.js:64:13)"
             }
           },
           {
@@ -39,8 +40,8 @@
               "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 2015056899
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -52,8 +53,8 @@
               "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 3301660600
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -65,8 +66,8 @@
               "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 1094190300
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -78,9 +79,8 @@
               "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
             },
             "result": {
-              "status": "failed",
-              "duration": 1809716099,
-              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at BrowserType.<anonymous> (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\features\\step_definitions\\deeptAgent.steps.js:16:30)\n    at async wrapPromiseWithTimeout (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:51:26)\n    at async TestCaseRunner.invokeStep (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:95:16)\n    at async TestCaseRunner.runStep (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:244:26)\n    at async C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:175:44)\n    at async TestCaseRunner.aroundTestStep (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:120:32)\n    at async TestCaseRunner.runAttempt (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:158:13)\n    at async TestCaseRunner.run (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:136:35)\n    at async Worker.runTestCase (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\parallel\\worker.js:82:9)\n    at async Worker.receiveMessage (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\parallel\\worker.js:64:13)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -127,7 +127,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 457660200
+              "duration": 218929799
             }
           }
         ],
@@ -162,7 +162,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 387512600
+              "duration": 376423100
             }
           },
           {
@@ -175,7 +175,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 1410088899,
+              "duration": 1563414299,
               "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://apps.abacus.ai/chatllm/\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.navigate (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\pages\\login.page.js:13:21)\n    at BrowserType.<anonymous> (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\features\\step_definitions\\login.steps.js:9:19)\n    at Object.run (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:24:27)\n    at Object.run (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:51:59)\n    at async TestCaseRunner.invokeStep (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:95:16)\n    at async TestCaseRunner.runStep (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:244:26)\n    at async C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:175:44)\n    at async TestCaseRunner.aroundTestStep (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:120:32)\n    at async TestCaseRunner.runAttempt (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:158:13)\n    at async TestCaseRunner.run (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:136:35)\n    at async Worker.runTestCase (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\parallel\\worker.js:82:9)\n    at async Worker.receiveMessage (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\parallel\\worker.js:64:13)"
             }
           },
@@ -236,7 +236,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 195946700
+              "duration": 233770700
             }
           }
         ],
@@ -260,7 +260,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 339306499
+              "duration": 350524300
             }
           },
           {
@@ -273,7 +273,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 1351228000,
+              "duration": 1409084899,
               "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://apps.abacus.ai/chatllm/\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.navigate (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\pages\\login.page.js:13:21)\n    at BrowserType.<anonymous> (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\features\\step_definitions\\login.steps.js:37:19)\n    at Object.run (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:24:27)\n    at Object.run (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:51:59)\n    at async TestCaseRunner.invokeStep (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:95:16)\n    at async TestCaseRunner.runStep (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:244:26)\n    at async C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:175:44)\n    at async TestCaseRunner.aroundTestStep (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:120:32)\n    at async TestCaseRunner.runAttempt (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:158:13)\n    at async TestCaseRunner.run (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:136:35)\n    at async Worker.runTestCase (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\parallel\\worker.js:82:9)\n    at async Worker.receiveMessage (C:\\Users\\Admin\\Desktop\\lamdadeep\\deepagentlamda_local (2)\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\parallel\\worker.js:64:13)"
             }
           },
@@ -282,7 +282,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 164140699
+              "duration": 146644499
             }
           }
         ],
