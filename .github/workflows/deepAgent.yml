@@ -15,7 +15,7 @@ jobs:
     runs-on: windows-latest
     
     env:
-      NODE_OPTIONS: --experimental-vm-modules
+      NODE_OPTIONS: --no-warnings
       
     steps:
       - name: Checkout code
@@ -40,10 +40,10 @@ jobs:
         shell: pwsh
         env:
           NODE_ENV: test
-          NODE_OPTIONS: --experimental-vm-modules --no-warnings
+          NODE_OPTIONS: --no-warnings
         run: |
           New-Item -ItemType Directory -Force -Path .\test-results
-          npm run test -- --import | Tee-Object -FilePath .\test-results\output.log
+          npm run test | Tee-Object -FilePath .\test-results\output.log
           $test_status = $LASTEXITCODE
           "test_status=$test_status" >> $env:GITHUB_OUTPUT
 
