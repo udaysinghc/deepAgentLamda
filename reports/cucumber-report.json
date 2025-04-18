@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 469341800
+              "duration": 422511099
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 7,
             "name": "the user enters username \"testuser1744775890841@internalreai.com\" and password \"Testuser@123\"",
             "match": {
-              "location": "..\\..\\deepagentlamda_local 2\\deepagentlamda_local\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 2620236300
+              "duration": 3242173100
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 8,
             "name": "I should be logged in successfully",
             "match": {
-              "location": "..\\..\\deepagentlamda_local 2\\deepagentlamda_local\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 2938660000
+              "duration": 1942238499
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 9,
             "name": "I click the deep Agent option",
             "match": {
-              "location": "..\\..\\deepagentlamda_local 2\\deepagentlamda_local\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 2685220100
+              "duration": 2785174500
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 14,
             "name": "I click the check out from the welcome window",
             "match": {
-              "location": "..\\..\\deepagentlamda_local 2\\deepagentlamda_local\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 872804700
+              "duration": 1094085300
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 15,
             "name": "I search the prompt \"Who is the current PM and Governor General of Canada?\" with follow-up query \"No follow-up questions please\"",
             "match": {
-              "location": "..\\..\\deepagentlamda_local 2\\deepagentlamda_local\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 27111196400
+              "duration": 57126171800
             }
           },
           {
@@ -88,11 +88,11 @@
             "line": 16,
             "name": "I should see a prompt that tests factual recall and accuracy of the response",
             "match": {
-              "location": "..\\..\\deepagentlamda_local 2\\deepagentlamda_local\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 1236099
+              "duration": 2198199
             }
           },
           {
@@ -101,11 +101,11 @@
             "line": 17,
             "name": "I should see the status \"Completed\" for the task",
             "match": {
-              "location": "..\\..\\deepagentlamda_local 2\\deepagentlamda_local\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 248635300
+              "duration": 14275499
             }
           },
           {
@@ -114,11 +114,11 @@
             "line": 18,
             "name": "the compute points should not exceed 50k",
             "match": {
-              "location": "..\\..\\deepagentlamda_local 2\\deepagentlamda_local\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+              "location": "..\\..\\deepagentlamda_local 2\\deepAgentLamda\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 15107700
+              "duration": 12649199
             }
           },
           {
@@ -126,7 +126,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 480173800
+              "duration": 339465300
             }
           }
         ],

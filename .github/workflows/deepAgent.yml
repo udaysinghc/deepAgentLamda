@@ -35,7 +35,7 @@ jobs:
         shell: pwsh
         run: |
           New-Item -ItemType Directory -Force -Path .\test-results
-          npm test | Tee-Object -FilePath .\test-results\output.log
+          npm run test | Tee-Object -FilePath .\test-results\output.log
           $test_status = $LASTEXITCODE
           "test_status=$test_status" >> $env:GITHUB_OUTPUT
 
