@@ -59,3 +59,5 @@ Then("the compute points should not exceed 50k", async function () {
     throw error;
   }
 });
+
+module.exports = {};

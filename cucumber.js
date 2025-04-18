@@ -1,7 +1,6 @@
 module.exports = {
   default: {
     parallel: 1,
-    requireModule: ['@babel/register'],
     format: [
       'progress-bar',
       ['html', 'reports/cucumber-report.html'],
