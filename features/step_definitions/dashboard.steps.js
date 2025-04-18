@@ -17,5 +17,3 @@ When("I click the deep Agent option", { timeout: 10000 }, async function () {
   await newPage.waitForLoadState();
   this.page = newPage; // Switch context to new tab
 });
-
-module.exports = {};

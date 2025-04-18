@@ -8,7 +8,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -24,10 +24,14 @@ jobs:
           npm ci
 
       - name: Run Cucumber tests
+        env:
+          NODE_OPTIONS: --experimental-vm-modules
         run: |
           npm run test
 
       - name: Run Chai tests
+        env:
+          NODE_OPTIONS: --experimental-vm-modules
         run: |
           npm run test
 

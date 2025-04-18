@@ -1,5 +1,4 @@
-
-const { Given, When, Then } = require('@cucumber/cucumber');
+const { Given, When, Then } = require("@cucumber/cucumber");
 const { DeepAgentPage } = require("../../pages/deepAgent.page");
 const { expect } = require("chai");
 let deepAgentPage;
@@ -59,5 +58,3 @@ Then("the compute points should not exceed 50k", async function () {
     throw error;
   }
 });
-
-module.exports = {};

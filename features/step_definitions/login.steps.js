@@ -39,5 +39,3 @@ Given('the user enters username {string} and password {string}', async function 
   await loginPage.enterPassword(password);
   await loginPage.clickLoginButton();
 });
-
-module.exports = {};
